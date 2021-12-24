@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  bot:
+    build:
+      dockerfile: BigWillBot/Dockerfile
+      context: BigWillBot
+    volumes:
+      - BigWillBot/app:/code/app
+      - config.ini:/code/config.ini
+  api:
+    build:
+      dockerfile: CryptoApi/Dockerfile
+      context: CryptoApi
+    volumes:
+      - CryptoApi/app:/code/app
+      - config.ini:/code/config.ini

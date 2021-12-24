@@ -2,17 +2,17 @@ version: "3.9"
 services:
   bot:
     build:
-      dockerfile: BigWillBot/Dockerfile
+      dockerfile: Dockerfile
       context: BigWillBot
     volumes:
-      - BigWillBot/app:/code/app
-      - config.ini:/code/config.ini
+      - ./BigWillBot/app:/code/app
+      - ./config.ini:/code/config.ini
   api:
     build:
-      dockerfile: CryptoApi/Dockerfile
+      dockerfile: Dockerfile
       context: CryptoApi
     volumes:
-      - CryptoApi/app:/code/app
-      - config.ini:/code/config.ini
+      - ./CryptoApi/app:/code/app
+      - ./config.ini:/code/config.ini
     ports:
       - "80:80"

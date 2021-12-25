@@ -5,7 +5,9 @@ The project works with FTX exchanger
 
 ## Setup
 
-> add a **config.ini** file in the root of the project with the format:
+> Clone the project with git clone and add the flag **--recurse-submodules** in order to load the submodules
+
+> Add a **config.ini** file in the root of the project with the format:
 ```
 [DEFAULT]
 api_key = <YOUR API KEY>

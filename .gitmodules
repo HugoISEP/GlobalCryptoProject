@@ -1,0 +1,6 @@
+[submodule "BigWillBot"]
+	path = BigWillBot
+	url = https://github.com/HugoISEP/BigWillBot.git
+[submodule "CryptoApi"]
+	path = CryptoApi
+	url = https://github.com/HugoISEP/CryptoApi.git

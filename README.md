@@ -7,6 +7,8 @@ The project works with FTX exchanger
 
 > Clone the project with git clone and add the flag **--recurse-submodules** in order to load the submodules
 
+> <u>Tips:</u> To pull the project and submodules run ```git config submodule.recurse true```
+
 > Add a **config.ini** file in the root of the project with the format:
 ```
 [DEFAULT]

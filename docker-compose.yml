@@ -7,6 +7,7 @@ services:
     volumes:
       - ./BigWillBot/app:/code/app
       - ./config.ini:/code/config.ini
+    restart: always
   api:
     build:
       dockerfile: Dockerfile
@@ -16,3 +17,4 @@ services:
       - ./config.ini:/code/config.ini
     ports:
       - "80:80"
+    restart: always

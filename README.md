@@ -12,10 +12,13 @@ The project works with FTX exchanger
 > Add a **config.ini** file in the root of the project with the format:
 ```
 [DEFAULT]
-api_key = <YOUR API KEY>
-api_secret = <YOUR API SECRET>
+api_key = <YOUR FTX API KEY>
+api_secret = <YOUR FTX API SECRET>
 subaccount_name = <YOUR SUB ACCOUNT>
 bot_base_url = <YOUR_BOT_BASE_URL>
+[AUTHENTICATION]
+API_KEY = <YOUR_API_KEY>
+API_KEY_NAME = <YOUR_API_KEY_NAME>
 ```
 
 ## Start the project

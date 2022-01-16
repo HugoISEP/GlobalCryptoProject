@@ -16,10 +16,13 @@ api_key = <YOUR FTX API KEY>
 api_secret = <YOUR FTX API SECRET>
 subaccount_name = <YOUR SUB ACCOUNT>
 bot_base_url = <YOUR_BOT_BASE_URL>
+api_base_url = <BASE URL OF THE CRYPTO API>
 [AUTHENTICATION]
 API_KEY = <YOUR_API_KEY>
 API_KEY_NAME = <YOUR_API_KEY_NAME>
 ```
+
+> Download the firebase config file *firebase-project-credentials.json* and put it at the root of the project
 
 ## Start the project
 

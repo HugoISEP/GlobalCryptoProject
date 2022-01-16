@@ -15,6 +15,7 @@ services:
     volumes:
       - ./CryptoApi/app:/code/app
       - ./config.ini:/code/config.ini
+      - ./firebase-project-credentials.json:/code/firebase-project-credentials.json
     restart: always
 
   caddy:

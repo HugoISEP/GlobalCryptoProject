@@ -17,3 +17,8 @@ services:
       - ./config.ini:/code/config.ini
       - ./firebase-project-credentials.json:/code/firebase-project-credentials.json
     restart: always
+
+networks:
+  default:
+    external:
+      name: global-network
